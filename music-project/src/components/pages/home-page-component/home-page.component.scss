@@ -1,0 +1,9 @@
+.homePage {
+    min-height: 150px;        // just so you can see it
+    display: flex;            // needed for align-items to work
+    flex-direction: column;
+    align-items: center;      // centers children horizontally
+    justify-content: center;  // centers children vertically
+    text-align: center;
+  }
+  
