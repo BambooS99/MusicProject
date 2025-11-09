@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Low ",
+      "artist": "David Bowie",
+      "year": 1977,
+      "genre": "art-rock,",
+      "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg",
+      "review": "Very obvious influence from artists like Kraftwerk. Its a very ambitious project by David and i absolutely love it.",
+      "hightlights": "Sound and Vision",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "title": "Mona Lisa Overdrive",
+      "artist": "BUCK-TICK",
+      "year": 2003,
+      "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Mona_Lisa_OVERDRIVE_-_BUCK-TICK.jpg",
+      "review": "One of their best albums. Filled with an assortment of different sounds and masterful production. Imai creates an amazing atmosphere with the electronic sounds. Some tracks, like 'Girl', sound very pop while others, such as 'Zangai', are very metal-esque",
+      "hightlights": "Zangai, Girl, Mona Lisa, Sid Vicious on The Beach",
+      "rating": 4
+    }
+  ]
+  
