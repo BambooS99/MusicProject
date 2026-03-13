@@ -1,24 +1,130 @@
 [
-    {
-      "id": 1,
-      "title": "Low ",
-      "artist": "David Bowie",
-      "year": 1977,
-      "genre": "art-rock,",
-      "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg",
-      "review": "Very obvious influence from artists like Kraftwerk. Its a very ambitious project by David and i absolutely love it.",
-      "hightlights": "Sound and Vision",
-      "rating": 5
-    },
-    {
-      "id": 2,
-      "title": "Mona Lisa Overdrive",
-      "artist": "BUCK-TICK",
-      "year": 2003,
-      "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Mona_Lisa_OVERDRIVE_-_BUCK-TICK.jpg",
-      "review": "One of their best albums. Filled with an assortment of different sounds and masterful production. Imai creates an amazing atmosphere with the electronic sounds. Some tracks, like 'Girl', sound very pop while others, such as 'Zangai', are very metal-esque",
-      "hightlights": "Zangai, Girl, Mona Lisa, Sid Vicious on The Beach",
-      "rating": 4
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Low ",
+    "artist": "David Bowie",
+    "year": 1977,
+    "genre": "art-rock",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg",
+    "review": "Very obvious influence from artists like Kraftwerk. Its a very ambitious project by David and i absolutely love it.",
+    "highlights": "Sound and Vision",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Mona Lisa Overdrive",
+    "artist": "BUCK-TICK",
+    "year": 2003,
+    "genre": "rock",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/Mona_Lisa_OVERDRIVE_-_BUCK-TICK.jpg",
+    "review": "One of their best albums. Filled with an assortment of different sounds and masterful production. Imai creates an amazing atmosphere with the electronic sounds. Some tracks, like 'Girl', sound very pop while others, such as 'Zangai', are very metal-esque",
+    "highlights": "Zangai, Girl, Mona Lisa, Sid Vicious on The Beach",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Toxicity",
+    "artist": "System of a Down",
+    "year": 2001,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/91o4-BvL0fL._UF1000,1000_QL80_.jpg",
+    "review": "Heavy, raw, and unfiltered. Serj Tankian and Daron Malakian's versatility really shows on this record. Every member of the band does great here and this is true genre-defining rock of the early 2000s. A must listen.",
+    "highlights": "Chop Suey, Toxicity, Aerials, Deer Dance",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "title": "White Pony",
+    "artist": "Deftones",
+    "year": 2000,
+    "coverImageUrl": "https://consequence.net/wp-content/uploads/2020/06/Deftones-White-Pony.jpg?quality=80",
+    "review": "Really awesome albums with a dynamic sound. Heavy and raw, but other times ethereal and dreamy. A must listen.",
+    "highlights": "Passenger, Knife Party, Change (In the House of Flies), Digital Bath",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "title": "Doolittle",
+    "artist": "Pixies",
+    "year": 1989,
+    "genre": "Alternative rock",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Pixies-Doolittle.jpg",
+    "review": "A seminal alternative rock album with dynamic shifts and surreal lyrics.",
+    "highlights": "Debaser, Wave of Mutilation, Monkey Gone to Heaven",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "The Downward Spiral",
+    "artist": "Nine Inch Nails",
+    "year": 1994,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/81zjG2LRWJL._UF1000,1000_QL80_.jpg",
+    "review": "Industrial and emotionally brutal; a defining concept album.",
+    "highlights": "March of the Pigs, Closer, Hurt",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "title": "Technique of Relief",
+    "artist": "Susumu Hirasawa",
+    "year": 1998,
+    "coverImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf0a9a67d18a96b163d395984",
+    "review": "So ethereal.",
+    "highlights": "Moon Time, Town-0 Phase 5, Berserk -Forces-",
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "title": "In Rainbows",
+    "artist": "Radiohead",
+    "year": 2007,
+    "genre": "Alternative rock",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Radiohead_inrainbows.jpg",
+    "review": "Warm, intricate, and sonically adventurous; a late-2000s high point.",
+    "highlights": "15 Step, Bodysnatchers, Videotape",
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "title": "Kid A",
+    "artist": "Radiohead",
+    "year": 2000,
+    "genre": "Electronic rock",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Radiohead_kid_a.jpg",
+    "review": "Avant-garde breakthrough; sparse melodies and cinematic ambience.",
+    "highlights": "Everything In Its Right Place, How to Disappear Completely",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "title": "Nevermind",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Grunge",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Nirvana_-_Nevermind.jpg",
+    "review": "Defining moment of the grunge era; raw energy and hooks.",
+    "highlights": "Smells Like Teen Spirit, Come as You Are",
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "title": "Illmatic",
+    "artist": "Nas",
+    "year": 1994,
+    "genre": "Hip hop",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Nas_-_Illmatic.jpg",
+    "review": "Timeless hip-hop storytelling with jazzy production.",
+    "highlights": "N.Y. State of Mind, It Ain't Hard to Tell",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "title": "Enter the Wu-Tang (36 Chambers)",
+    "artist": "Wu-Tang Clan",
+    "year": 1993,
+    "genre": "Hip hop",
+    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Wutang_36_Chambers.jpg",
+    "review": "Raw, gritty, iconic production; a cornerstone of hip-hop.",
+    "highlights": "Protect Ya Neck, C.R.E.A.M., Wu-Tang Clan Ain't Nothin' ta F' Wit",
+    "rating": 5
+  }
+]

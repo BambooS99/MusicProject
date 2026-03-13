@@ -1,5 +1,6 @@
 import React from "react";
 import "./album-reviews.component.scss";
+import { AlbumCard } from "../../album-card/album-card.component";
 
 type AlbumReviewsProps = {
   className?: string;
@@ -7,9 +8,10 @@ type AlbumReviewsProps = {
 
 export function AlbumReviews({ className }: AlbumReviewsProps) {
   return (
-    <div className={`albuymReviews ${className ?? ""}`}>
-      <h2>Reviews</h2>
-      <p>Sample text here</p>
+    <div className={`albumReviews ${className ?? ""}`}>
+      <section className="card-wrapper">
+        <AlbumCard />
+      </section>
     </div>
   );
 }

@@ -8,7 +8,7 @@ type HeaderButtonProps = {
 
 export function HeaderButtons({ className, onChangePage }: HeaderButtonProps) {
   return (
-    <>
+    <div className={`headerButtons ${className ?? ""}`}>
       <button onClick={() => onChangePage("Home")}>Home</button>
       <button onClick={() => onChangePage("Album Reviews")}>
         Album Reviews
@@ -16,6 +16,6 @@ export function HeaderButtons({ className, onChangePage }: HeaderButtonProps) {
       <button onClick={() => onChangePage("New Releases")}>New Releases</button>
       <button onClick={() => onChangePage("About")}>About</button>
       <button onClick={() => onChangePage("Contribute")}>Contribute</button>
-    </>
+    </div>
   );
 }
