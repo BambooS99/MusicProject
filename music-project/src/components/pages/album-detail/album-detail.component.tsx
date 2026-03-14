@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./album-detail.component.scss";
 import { TerminalSection } from "../terminal-section/terminal-section.component";
-import { RatingStars } from "../../common-components/rating-stars/rating-stars.component";
-import { BackButton } from "../../back-button/back-button.component";
+import { RatingStars } from "../../common-components/rating-stars/rating-stars/rating-stars.component";
+import { BackButton } from "../../common-components/rating-stars/back-button/back-button.component";
 
 interface AlbumDetailProps {
   albumId: number;
@@ -49,8 +49,6 @@ export function AlbumDetail({ albumId, onBack }: AlbumDetailProps) {
 
   return (
     <div className="album-detail">
-      <BackButton onClick={onBack} text="Back to Albums" />
-
       <div className="album-detail__container">
         {/* Hero Section */}
         <section className="album-detail__hero">
