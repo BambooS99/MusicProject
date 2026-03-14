@@ -13,7 +13,11 @@ type Album = {
   rating: number;
 };
 
-export function AlbumCard() {
+interface AlbumCardProps {
+  onAlbumClick?: (albumId: number) => void;
+}
+
+export function AlbumCard({ onAlbumClick }: AlbumCardProps) {
   const [albums, setAlbums] = useState<Album[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -41,7 +45,11 @@ export function AlbumCard() {
   return (
     <div className="album-list">
       {albums.map((album) => (
-        <div key={album.id} className="album-card">
+        <div
+          key={album.id}
+          className="album-card"
+          onClick={() => onAlbumClick?.(album.id)}
+          style={{ cursor: "pointer" }}>
           {/* macOS-style traffic lights */}
           <div className="tools">
             <div className="circle">
@@ -68,8 +76,6 @@ export function AlbumCard() {
             <h3 className="album-card__title">{album.title}</h3>
             <p className="album-card__artist">{album.artist}</p>
             <p className="album-card__year">{album.year}</p>
-
-            <p className="album-card__review">{album.review}</p>
 
             <div className="album-card__footer">
               {album.genre && (

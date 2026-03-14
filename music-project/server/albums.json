@@ -42,17 +42,6 @@
     "rating": 5
   },
   {
-    "id": 5,
-    "title": "Doolittle",
-    "artist": "Pixies",
-    "year": 1989,
-    "genre": "Alternative rock",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Pixies-Doolittle.jpg",
-    "review": "A seminal alternative rock album with dynamic shifts and surreal lyrics.",
-    "highlights": "Debaser, Wave of Mutilation, Monkey Gone to Heaven",
-    "rating": 5
-  },
-  {
     "id": 6,
     "title": "The Downward Spiral",
     "artist": "Nine Inch Nails",
@@ -72,59 +61,25 @@
     "highlights": "Moon Time, Town-0 Phase 5, Berserk -Forces-",
     "rating": 5
   },
-  {
+{
     "id": 8,
-    "title": "In Rainbows",
-    "artist": "Radiohead",
-    "year": 2007,
-    "genre": "Alternative rock",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Radiohead_inrainbows.jpg",
-    "review": "Warm, intricate, and sonically adventurous; a late-2000s high point.",
-    "highlights": "15 Step, Bodysnatchers, Videotape",
-    "rating": 4
+    "title": "White Tiger",
+    "artist": "2Hollis",
+    "year": 2022,
+    "coverImageUrl": "https://f4.bcbits.com/img/a3556165336_16.jpg",
+    "review": "Album has a lot of cool energy and great songs, some parts of it bored me but its a decent album.",
+    "highlights": "White Tiger",
+    "rating": 3
   },
   {
     "id": 9,
-    "title": "Kid A",
-    "artist": "Radiohead",
-    "year": 2000,
-    "genre": "Electronic rock",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Radiohead_kid_a.jpg",
-    "review": "Avant-garde breakthrough; sparse melodies and cinematic ambience.",
-    "highlights": "Everything In Its Right Place, How to Disappear Completely",
-    "rating": 5
-  },
-  {
-    "id": 10,
-    "title": "Nevermind",
-    "artist": "Nirvana",
-    "year": 1991,
-    "genre": "Grunge",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/Nirvana_-_Nevermind.jpg",
-    "review": "Defining moment of the grunge era; raw energy and hooks.",
-    "highlights": "Smells Like Teen Spirit, Come as You Are",
-    "rating": 5
-  },
-  {
-    "id": 11,
-    "title": "Illmatic",
-    "artist": "Nas",
-    "year": 1994,
-    "genre": "Hip hop",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Nas_-_Illmatic.jpg",
-    "review": "Timeless hip-hop storytelling with jazzy production.",
-    "highlights": "N.Y. State of Mind, It Ain't Hard to Tell",
-    "rating": 5
-  },
-  {
-    "id": 12,
-    "title": "Enter the Wu-Tang (36 Chambers)",
-    "artist": "Wu-Tang Clan",
-    "year": 1993,
-    "genre": "Hip hop",
-    "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Wutang_36_Chambers.jpg",
-    "review": "Raw, gritty, iconic production; a cornerstone of hip-hop.",
-    "highlights": "Protect Ya Neck, C.R.E.A.M., Wu-Tang Clan Ain't Nothin' ta F' Wit",
+    "title": "Evangelic Girl is a Gun",
+    "artist": "yuele",
+    "year": 2025,
+    "coverImageUrl": "https://f4.bcbits.com/img/a2799602248_10.jpg",
+    "review": "This album rocks!",
+    "highlights": "Evangelic Girl is a Gun",
     "rating": 5
   }
 ]
+  
