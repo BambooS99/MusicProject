@@ -1,5 +1,5 @@
 import "./header.component.scss";
-import { HeaderButtons } from "../header-buttons/header-buttons.component";
+import { HeaderButtons } from "./header-buttons/header-buttons.component";
 
 type HeaderProps = {
   className?: string;

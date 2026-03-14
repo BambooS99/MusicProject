@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./album-detail.component.scss";
-import { TerminalSection } from "../../terminal-section/terminal-section.component";
-import { RatingStars } from "../../rating-stars/rating-stars.component";
+import { TerminalSection } from "../terminal-section/terminal-section.component";
+import { RatingStars } from "../../common-components/rating-stars/rating-stars.component";
 import { BackButton } from "../../back-button/back-button.component";
 
 interface AlbumDetailProps {
