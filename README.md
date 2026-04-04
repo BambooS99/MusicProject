@@ -2,6 +2,9 @@
 
 A personal album review site. Browse reviews, read write-ups, and look at cover art.
 
+<img width="2530" height="1289" alt="image" src="https://github.com/user-attachments/assets/269559a3-4c7e-4efc-8245-eff6598dc39b" />
+
+
 ## Stack
 
 - React 19 + TypeScript (Vite)
