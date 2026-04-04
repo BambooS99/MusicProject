@@ -1,16 +1,15 @@
 import "./header.component.scss";
 import { HeaderButtons } from "./header-buttons/header-buttons.component";
 
-type HeaderProps = {
+interface HeaderProps {
   className?: string;
-  onChangePage: (page: string) => void;
-};
+}
 
-export function HeaderComponent({ className, onChangePage }: HeaderProps) {
+export function HeaderComponent({ className }: HeaderProps) {
   return (
     <header className={`headerComponent ${className ?? ""}`}>
       <h1 className="headerComponent__title">private music</h1>
-      <HeaderButtons onChangePage={onChangePage} />
+      <HeaderButtons />
     </header>
   );
 }

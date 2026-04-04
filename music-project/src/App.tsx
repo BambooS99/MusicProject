@@ -4,37 +4,36 @@ import { HomePage } from "./components/pages/home-page-component/home-page.compo
 import { useState } from "react";
 import { AlbumReviews } from "./components/pages/album-reviews/album-reviews.component";
 import { AlbumDetail } from "./components/pages/album-detail/album-detail.component";
+import { useNavigate, useParams, Routes, Route } from "react-router-dom";
 
-function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
-  const [selectedAlbumId, setSelectedAlbumId] = useState<number | null>(null);
-
-  const handleAlbumClick = (albumId: number) => {
-    setSelectedAlbumId(albumId);
-    setCurrentPage("Album Detail");
-  };
-
-  const handleBackToAlbums = () => {
-    setSelectedAlbumId(null);
-    setCurrentPage("Album Reviews");
-  };
-
+function AlbumReviewsRoute() {
+  const navigate = useNavigate();
   return (
-    <>
-      <HeaderComponent
-        className="headerComponent"
-        onChangePage={setCurrentPage}
-      />
-      {currentPage === "Home" && <HomePage />}
-      {currentPage === "Album Reviews" && (
-        <AlbumReviews onAlbumClick={handleAlbumClick} />
-      )}
-      {currentPage === "Album Detail" && selectedAlbumId && (
-        <AlbumDetail albumId={selectedAlbumId} onBack={handleBackToAlbums} />
-      )}
-      {/* add more later */}
-    </>
+    <AlbumReviews
+      onAlbumClick={(albumID) => {
+        navigate(`/album/${albumID}
+      `);
+      }}
+    />
   );
 }
 
-export default App;
+function AlbumDetailRoute() {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  return <AlbumDetail albumId={Number(id)} onBack={() => navigate(-1)} />;
+}
+
+export default function App() {
+  return (
+    <>
+      <HeaderComponent />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reviews" element={<AlbumReviewsRoute />} />
+        <Route path="/album/:id" element={<AlbumDetailRoute />} />
+        <Route path="*" element={<HomePage />} />
+      </Routes>
+    </>
+  );
+}

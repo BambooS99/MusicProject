@@ -1,21 +1,19 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./header-buttons.component.scss";
 
-type HeaderButtonProps = {
+interface HeaderButtonProps {
   className?: string;
-  onChangePage: (page: string) => void;
-};
+}
 
-export function HeaderButtons({ className, onChangePage }: HeaderButtonProps) {
+export function HeaderButtons({ className }: HeaderButtonProps) {
+  const navigate = useNavigate();
   return (
     <div className={`headerButtons ${className ?? ""}`}>
-      <button onClick={() => onChangePage("Home")}>Home</button>
-      <button onClick={() => onChangePage("Album Reviews")}>
-        Album Reviews
-      </button>
-      <button onClick={() => onChangePage("New Releases")}>New Releases</button>
-      <button onClick={() => onChangePage("About")}>About</button>
-      <button onClick={() => onChangePage("Contribute")}>Contribute</button>
+      <button onClick={() => navigate("/")}>Home</button>
+      <button onClick={() => navigate("/reviews")}>Album Reviews</button>
+      <button onClick={() => navigate("/new-releases")}>New Releases</button>
+      <button onClick={() => navigate("/about")}>About</button>
+      <button onClick={() => navigate("/contribute")}>Contribute</button>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./album-detail.component.scss";
 import { TerminalSection } from "../terminal-section/terminal-section.component";
 import { RatingStars } from "../../common-components/rating-stars/rating-stars/rating-stars.component";
-import { BackButton } from "../../common-components/rating-stars/back-button/back-button.component";
+import { RetroStyledButton } from "../../common-components/retro-styled-button/retro-styled-button.component";
 
 interface AlbumDetailProps {
   albumId: number;
@@ -94,9 +94,11 @@ export function AlbumDetail({ albumId, onBack }: AlbumDetailProps) {
             <TerminalSection title="Track Highlights">
               <div className="album-detail__highlights">
                 {album.highlights.split(",").map((track, idx) => (
-                  <span key={idx} className="album-detail__highlight-tag">
+                  <RetroStyledButton
+                    key={idx}
+                    className="album-detail__highlight-tag">
                     {track.trim()}
-                  </span>
+                  </RetroStyledButton>
                 ))}
               </div>
             </TerminalSection>
