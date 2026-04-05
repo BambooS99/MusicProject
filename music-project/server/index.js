@@ -19,15 +19,15 @@ function loadAlbums() {
 
 // allow frontend on Vite's default port
 app.use(
-  cors({
-    origin: "http://localhost:5173",
-  })
+ cors({
+  origin: process.env.CORS_ORIGIN || "http://localhost:5173",
+})
 );
 
 app.use(express.json());
 
 let albums = loadAlbums();
-
+  
 app.get("/api/albums", (req, res) => {
     res.json(albums);
 });
