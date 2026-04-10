@@ -9,7 +9,7 @@ A personal album review site. Browse reviews, read write-ups, and look at cover 
 
 - React 19 + TypeScript (Vite)
 - React Router v7
-- Express backend serving a flat JSON file
+- Postgres and FastAPI Backend
 - SCSS for styles
 
 ## Running locally
